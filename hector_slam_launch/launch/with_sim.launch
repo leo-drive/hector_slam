@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <include file="$(find rosbot_description)/launch/rosbot_rviz.launch">
+  </include>
+
+  <include file="$(find hector_slam_launch)/launch/tutorial.launch">
+  </include>
+
+  <include file="$(find rosbot_navigation)/launch/move_base_demo.launch">
+  </include>
+
+  <include file="$(find move_robot)/launch/move_robot.launch">
+  </include>
+
+</launch>
